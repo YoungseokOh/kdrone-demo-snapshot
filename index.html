@@ -5,6 +5,7 @@
   html, body { height: 100%; margin: 0; }
   body { display: flex; flex-direction: column; background: #0b1220; }
   .snapbar {
+    display: none;
     flex: 0 0 auto; display: flex; align-items: center; gap: 10px;
     padding: 6px 14px; background: var(--bar-bg); color: var(--bar-fg);
     font: 12px/1.4 "Manrope", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
@@ -20,8 +21,6 @@
   iframe#view { flex: 1 1 auto; width: 100%; border: 0; background: #fff; }
 </style>
 <div class="snapbar">
-  <b>DEMO WEB SNAPSHOT</b>
-  <span class="note">2026-07-22 &#183; &#51221;&#51201; &#49828;&#45253;&#49399; &#8212; NPU replay &#50689;&#49345;&#51008; &#50517;&#52629; &#53364;&#47549;, live &#48372;&#46300; &#49828;&#53944;&#47548;&#183;&#46972;&#51060;&#48652;&#47084;&#47532; &#52628;&#44032; &#50689;&#49345;&#51008; &#48120;&#54252;&#54632;</span>
   <span class="spacer"></span>
   <select id="pagesel"></select>
 </div>
